@@ -8,6 +8,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: '40 15 * * *'  # 每天早上9點運行
 
 permissions:
   contents: read
