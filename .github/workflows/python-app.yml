@@ -2,7 +2,7 @@ name: Daily Script Execution
 
 on:
   schedule:
-    - cron: '00 14 * * *'  # 每天早上9點運行，可以根據需要調整cron表達式
+    - cron: '17 15 * * *'  # 每天早上9點運行，可以根據需要調整cron表達式
 
 jobs:
   run-script:
