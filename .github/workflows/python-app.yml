@@ -5,7 +5,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: '56 5 * * *'
+    - cron: '5 8 * * *'  # 每天 UTC 08:05，對應台北時間 16:05
   push:
     branches: [ "main" ]
   pull_request:
