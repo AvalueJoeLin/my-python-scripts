@@ -42,7 +42,7 @@ def GetOpenPrice(Stockcode):
 #}
 # Google Sheets 认证并连接
 scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('C:\\Users\\joe_lin\\Desktop\\Stock\\stocksheet-427808-fc8909da447f.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name(./stocksheet-427808-fc8909da447f.json', scope)
 client = gspread.authorize(creds)
 
 # 读取Google Sheets中的股票代号和名称
