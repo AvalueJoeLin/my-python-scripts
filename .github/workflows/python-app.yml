@@ -5,9 +5,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: '10 8 * * *'  # 每天 UTC 08:05，對應台北時間 16:05
-  pull_request:
-    branches: [ "main" ]
+    - cron: '10 8 * * *'
 
 permissions:
   contents: read
