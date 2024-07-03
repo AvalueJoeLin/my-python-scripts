@@ -5,7 +5,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # 每兩分鐘執行一次
+    - cron: '42 16 * * *'  # 每兩分鐘執行一次
   workflow_dispatch:  # 添加手動觸發
 
 jobs:
